@@ -56,7 +56,7 @@ class NBRandomForestClassifier(RandomForestClassifier):
         self.min_impurity_decrease = min_impurity_decrease
         self.min_impurity_split = min_impurity_split
 
-# Naive Bayes Decision Tree - Decision Tree model that in is leaves has naive bayes classifier 
+# Naive Bayes Decision Tree - Decision Tree model that in its leaves has Naive Bayes classifier 
 class NB_DecisionTreeClassifier(DecisionTreeClassifier):
     def __init__(self,
                  criterion="gini",
